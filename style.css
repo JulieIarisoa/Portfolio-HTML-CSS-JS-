@@ -189,42 +189,27 @@ body{
 /************************************** section copétence ********************************************/
 #competence{
     background-color: var(--second-bg-color);
-    display: flex;
-    justify-content: space-around;
+    padding-top: 12rem;
     padding-left: 5rem;
     padding-right: 10rem;
     height: 100vh;
 }
-#competence{
-    align-items: center;
-}
-#titre{
-}
 #competence h1{
     text-align: center;
-}
-#competence div{
-    background-color: var(--bg-color);
-    height: 55vh;
-    width: 30%;
-    border-radius: 5px;
-    box-shadow: 1px 1px 20px var(--second-bg-color);
-    transition: 0.3s ease;
-}
-#competence div:hover{
-    box-shadow: 1px 1px 30px var(--text-color);
-    transform: scale(1.1);
-    margin: 5rem;
-}
-#competence div h1{
+    margin-bottom: 1rem;
     font-size: 2.5rem;
     color: var(--main-color);
-    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--second-bg-color);
 }
-#competence div li{
-    font-size: 1.5rem;
-    line-height: 3rem;
-    color: var(--text-color);
+#competenceContenue{
+    display: flex;
+    justify-content: space-between;
+}
+#competenceContenue div{
+    background-color: var(--bg-color);
+    margin: 1rem;
+    width: 40rem;
+    padding: 2rem;
 }
 #competenceIcon{
     justify-content: center;
@@ -235,7 +220,20 @@ body{
     cursor: pointer;
     color: var(--main-color);
 }
-
+#competenceContenue h2{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: right;
+}
+#competenceContenue li{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+#iconFront{
+    width: 2.5rem;
+}
 
 /******************************section service********************/
 #service{
